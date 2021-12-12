@@ -1,0 +1,38 @@
+
+.listContainer {
+  padding: 10px 15px;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: var(--fs-2Xsmall);
+  font-weight: var(--fw-medium);
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+.listItem li {
+  text-decoration: none !important;
+
+}
+.listItem li> img {
+  height: 20px;
+  margin-right:10px ;
+  vertical-align: inherit;
+}
+.subListContainer {
+  margin: 0px 20px;
+}
+
+/* rotate icon */
+
+.listItem svg {
+  transition: all 0.25s ease;
+}
+.listItem .rotate svg {
+  transform: rotate(180deg);
+}
+
+/* padding-left: 10px */
+

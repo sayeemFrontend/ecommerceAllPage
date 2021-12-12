@@ -1,0 +1,35 @@
+.itemCart{
+  position: relative;
+  cursor: pointer;
+}
+.itemCart span{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -5px;
+  right: -10px;
+
+}
+.itemCart img{
+  width: 30px;
+}
+
+.myCartContainer {
+  width: 100%;
+    position: fixed;
+    top: 55px;
+    right: 0px;
+    height: 100vh;
+    z-index: 11;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 14%);
+}
+@media screen and (min-width:768px){
+  .myCartContainer{
+    width: 322px;
+  }
+}

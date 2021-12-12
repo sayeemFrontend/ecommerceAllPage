@@ -1,0 +1,34 @@
+.customCheckbox{
+  display: flex;
+}
+.customCheckbox input {
+  cursor: pointer;
+}
+
+
+.inputContainer{
+    width: 22px;
+    height: 22px;
+    background: #EDF3FD;
+    box-shadow: inset 0px 2px 2px -1px rgb(74 74 104 / 10%);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+
+}
+.customCheckbox .checked{
+  background-color: #0870FF;
+  color: white;
+}
+
+/* .text{
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+}
+.text2{
+  visibility: hidden;
+} */

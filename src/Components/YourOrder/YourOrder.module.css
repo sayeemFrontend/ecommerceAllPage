@@ -1,0 +1,14 @@
+.productSec{
+    border-top: 1px solid #eeeef0;
+    border-bottom: 1px solid #eeeef0;
+    height:100px;
+    padding-bottom: 0;
+}
+.trash svg{
+    color: #858585;
+    height: 15px;
+}
+.quantity{
+    height: 40px;
+    border: 1px solid #D6D6D6;
+}

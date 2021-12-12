@@ -1,0 +1,48 @@
+.navBarContainer{
+    width: 100%;
+    background-color: var(--primary);
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow:0 3px 6px rgb(0 0 0 / 16%);;
+}
+.dotIcon{
+    width: 6px;
+    height: 6px;
+    display: block;
+    border-radius: 100%;
+    background:black;
+    margin-right: 14px;
+}
+.leftGroup{
+    width: 250px;
+    position: relative;
+}
+@media screen and (max-width:768px){
+.leftGroup{
+    width:fit-content ;
+}
+}
+.leftGroup img{ 
+    width: 110px;
+}
+.rightGroup h5{
+    padding: 12px 18px;
+    /* background-color: var(--secondary); */
+    color: white;
+}
+.accountContainer{
+    width: 300px;
+    position: fixed;
+    top: 70px;
+    transform: translate(50%, 0);
+    right: 50%;
+}
+
+.profileModal{
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: -60px;
+}

@@ -1,0 +1,129 @@
+.productView {
+  color: #292929;
+  background: white;
+  padding: 15px;
+  margin-top: 70px;
+}
+
+.productView .imgContainer {
+  width: 100%;
+  height: 446px;
+}
+.productView .imgContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.productView .amount {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  border-radius: 10px;
+  margin: 8px 0px 32px;
+  width: 150px;
+}
+.productView .selectedInput {
+  width: 150px;
+  height: 30px;
+}
+
+.productView .amount .plusMinus {
+  width: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: rgb(0 0 0/50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productView .amount .plusMinus svg {
+  font-size: 15px;
+}
+
+.productView .amount div:nth-child(2) {
+  width: 50px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.active {
+  color: #0870FF !important;
+}
+
+.productView .btnContainer {
+  display: flex;
+}
+.productView .btnContainer .singleBtn {
+  margin-right: 30px;
+}
+
+.productView .imgSlider {
+  width: 100%;
+}
+
+.buyButton{
+  padding: 6px 16px;
+  background: #EDF3FD;
+  width: 160px;
+}
+
+.addtoBag{
+  padding:6px 16px ;
+  color: #FFFFFF;
+  background: #0870FF;
+  width: 160px;
+}
+
+.productView .description .descriptionPara {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.displayProducts [class*="col-"] {
+  margin-bottom: 20px;
+}
+
+.displayCart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .productView .title {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+  .productView .btnContainer {
+    flex-direction: column;
+  }
+  .productView .btnContainer .singleBtn {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .productView .imgContainer {
+    height: 340px;
+    padding: 15px;
+  }
+  .productView {
+    margin-top: 0;
+  }
+  .displayCart {
+    justify-content: center;
+  }
+  .signleCart {
+    padding: 10px;
+  }
+  
+}
+
+

@@ -1,0 +1,31 @@
+.category {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(83, 177, 117, 0.1);
+  border: 1px solid rgba(83, 177, 117, 0.7);
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 145px;
+  width: 156px;
+  margin: 10px 10px 0px 0px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.category img {
+  object-fit: contain;
+  height: 72px;
+}
+.category img:hover {
+  height: 80px;
+}
+
+.category h1 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #181725;
+  margin-top: 10px;
+}

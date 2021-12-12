@@ -1,0 +1,18 @@
+.radioContainer{
+  display: flex;
+  align-items: center;
+}
+.radioContainer input{
+  cursor: pointer;
+}
+.radioContainer img{
+  width: 60px;
+}
+.radioContainer label{
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555555;
+    padding-left: 9px;
+}

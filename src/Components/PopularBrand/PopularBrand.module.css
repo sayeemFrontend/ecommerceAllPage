@@ -1,0 +1,12 @@
+.brand{
+    border: 1px solid #F5F5F5;
+    padding: 24px;
+}
+.brand img{
+    width: 100%;
+}
+
+/* .brand:hover{
+    box-shadow: 8px 16px 24px 0px #454F590A;
+} */
+

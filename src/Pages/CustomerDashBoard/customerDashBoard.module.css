@@ -1,0 +1,92 @@
+.customerDashBoard .dashboardContainer {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+.customerDashBoard .dashboardSidebar {
+  background-color: #4f4f4f;
+  border-radius: 10px;
+}
+.customerDashBoard .dashboardSidebar .profileContainer {
+  padding: 10px;
+  min-width: 300px;
+}
+.customerDashBoard .dashboardSidebar .listContainer {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.customerDashBoard .dashboardSidebar .listItem {
+  margin: 12px 0px;
+  cursor: pointer;
+  color: white;
+  padding: 5px 0px 5px 30px;
+}
+
+.customerDashBoard .dashboardContent {
+  padding: 30px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.customerDashBoard .profileContainer .imgWrapper {
+  background: rgb(53 53 53);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(200 200 200);
+  margin-bottom: 32px;
+}
+
+.customerDashBoard .profileContainer .imgWrapper img {
+  width: 100px;
+  height: 100px;
+}
+
+.customerDashBoard .title {
+  font-size: 16px;
+  margin: 6px 0px -2px;
+}
+.customerDashBoard .subTitle {
+  font-size: 8px;
+}
+
+.customerDashBoard .listContainer .listItem:hover,
+.customerDashBoard .listContainer .active {
+  background-color: white;
+  color: green;
+}
+
+.MobileDash {
+  display: none;
+}
+.MobileDropMenu {
+  display: none;
+}
+
+/* Mobile Responsive DEesign */
+
+@media screen and (max-width: 768px) {
+  .customerDashBoard .dashboardContainer {
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  .customerDashBoard .dashboardSidebar {
+    border-radius: 15px;
+  }
+  .MobileDash {
+    display: block;
+  }
+  .MobileDropMenu {
+    display: block;
+    z-index: 11;
+  }
+  .DesktopDash {
+    display: none;
+  }
+  .dashboardContent {
+    z-index: 1;
+  }
+}

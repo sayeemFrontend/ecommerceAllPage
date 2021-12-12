@@ -1,0 +1,18 @@
+.listContainer{
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+}
+.listContainer .listItem{
+    cursor: pointer;
+    color: #858585;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+
+}
+.listContainer .active{
+    color: black;
+    border-left: 3px solid red;
+    margin-left: 0;
+}

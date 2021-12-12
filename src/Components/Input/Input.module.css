@@ -1,0 +1,52 @@
+.customInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  border: 1px solid #D6D6D6;
+  border-radius: 8px;
+}
+
+.customInput:focus-within{
+  border: 1px solid #0870FF;
+}
+.customInput input {
+  width: 100%;
+  border: none;
+  font-size: 13px;
+  padding: 4px 3px;
+  height: 40px;
+}
+.customInput svg{
+  cursor: pointer;
+}
+.customInput input:focus{
+  outline: none;
+}
+
+
+.customInput label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #555555;
+  padding-left: 12px;
+  margin-bottom: 3px;
+}
+.customInput input::placeholder {
+  opacity: 0.9;
+  font-size: 12px;
+}
+ .errorStyle{
+  border: 1px solid #FF0000;
+}
+ .errorStyle  svg{
+  color: red;
+}
+ .okStyle{
+  border: 1px solid #31D0AA;
+}
+ .okStyle svg{
+  color:#31D0AA ;
+}

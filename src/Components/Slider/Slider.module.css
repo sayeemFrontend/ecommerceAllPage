@@ -1,0 +1,43 @@
+
+.sliderImage{
+    height: 440px;
+}
+.caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;     
+}
+.productTotal {
+    border-radius: 100px;
+    border-style: none;   
+}
+
+.dotDesign{
+    height: 3px;
+    width: 25px;
+    background: #0870FF;
+}
+.arrowBg{
+    background-color:black;
+    padding: 20px;
+    border-radius:100%;
+    font-size:25px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .sliderImage{
+        height: 330px;
+        width: 100%;
+    }
+    .title1{
+        font-size: 12px;
+    }
+    .title2{
+        font-size: 16px;
+    }
+    
+  }
+

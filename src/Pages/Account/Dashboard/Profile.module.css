@@ -1,0 +1,30 @@
+.profilePage{
+
+}
+.profilePage .sidebarListContainer{
+    background: #EDF3FD;
+    border-radius: 10px;
+    padding: 15px 0px 10px;
+}
+
+.mobileView{
+    position:relative;
+}
+.modalPosition{
+    position: absolute;
+    top: 0;
+
+}
+.valueField{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    padding: 3px 10px;
+
+}
+
+.profilePage .content{
+
+}

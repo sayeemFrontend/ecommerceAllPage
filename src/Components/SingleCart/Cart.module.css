@@ -1,0 +1,27 @@
+.cartContainer{
+    width: 100%;
+}
+
+.cart{
+    
+}
+
+.cartContainer .newItem{
+    position: absolute;
+    top:5px;
+    left: 0;
+    color: var(--bg-primary);
+    font-size: var(--fs-small);
+}
+
+.cartContent{
+    position: relative;
+}
+.cartContainer .cartImage h5{
+    font-size: var(--fs-Xsmall);
+    color: var(--bg-secondary);
+}
+
+.cartContainer .selectDiv{
+    width: 75%;
+}

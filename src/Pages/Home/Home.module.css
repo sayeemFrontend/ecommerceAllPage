@@ -1,0 +1,25 @@
+
+
+.seeAll {
+  color: #219653;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+
+.categoryTitle {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 500;
+}
+
+
+.homePage [class*="col-"] {
+    margin-bottom: 50px;
+}
+
+.slideContainer{
+  z-index: 0;
+  margin-bottom: 100px;
+}

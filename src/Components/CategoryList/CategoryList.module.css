@@ -1,0 +1,33 @@
+
+.listContainer {
+  top: 88px;
+  left: 30px;
+  position: fixed;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: var(--fs-small);
+  font-weight: var(--fs-small);
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+.listItem img {
+  height: 20px;
+}
+.subListContainer {
+  margin: 0px 20px;
+}
+
+/* rotate icon */
+
+.listItem svg {
+  font-size: 12px;
+  transition: all 0.25s ease;
+}
+.listItem .rotate svg {
+  transform: rotate(180deg);
+}
+

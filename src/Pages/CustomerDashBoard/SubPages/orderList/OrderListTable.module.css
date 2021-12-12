@@ -1,0 +1,69 @@
+
+/* table */
+
+.listtable {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 700px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.listtable th {
+    background: #BEF6C3;
+    border-top: 40px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 12px;
+  }
+.listtable th,tr :not(:last-child){
+  border-right: 1px solid #FFFFFF;
+
+}
+  
+.listtable td{
+    padding: 12px;
+    text-align: center;
+  }
+   
+.listtable tr:nth-child(even){ 
+    background-color: #FFFFFF; 
+  }
+
+.listtable tr:nth-child(odd){
+    background: rgba(202, 245, 206, 0.51);
+    }
+
+.statusDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}   
+
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding:6px 0px 6px 0px;
+    width: 120px;
+    align-items: center;
+}
+
+.tableData{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+
+

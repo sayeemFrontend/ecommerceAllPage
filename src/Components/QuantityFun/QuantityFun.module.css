@@ -1,0 +1,89 @@
+.quantity {
+  font-size: 15px;
+  font-weight: 600;
+}
+.amount {
+  border: 1px solid #e2e2e2;
+  padding: 6px 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* .selectedInput {
+  width: 200px;
+} */
+
+.plusMinus {
+  width: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: rgb(0 0 0/50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amount .plusMinus svg {
+  font-size: 15px;
+}
+.amount div:nth-child(2) {
+  width: 50px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.active {
+  color: #0870FF!important;
+}
+/* }
+.btnContainer {
+  display: flex;
+}
+.btnContainer .singleBtn {
+  margin-right: 30px;
+}
+
+.imgSlider {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* margin-bottom: 50px; */
+/*
+.description {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 40px 0px;
+}
+.descriptionPara {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.row [class*="col-"] {
+  margin-bottom: 10px;
+}
+
+.displayCart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+/* @media (max-width: 991px) {
+  .signleCart {
+    padding: 10px;
+  }
+  .title {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+  .btnContainer {
+    flex-direction: column;
+  }
+  .btnContainer .singleBtn {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+} */
